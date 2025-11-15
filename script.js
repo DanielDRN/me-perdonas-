@@ -39,6 +39,10 @@ if (sibutton) {
         respuesta.textContent = mensajesSi[indiceSi];
         imgfeliz.style.display = "block";
         imgllorando.style.display = "none";
+        nobutton.style.display = "none";
+        sibutton.style.display = "none";
+        sibutton.style.transform = 'scale(1)';
+        escala = 1;
         indiceSi = (indiceSi + 1) % mensajesSi.length;
     });
 }
